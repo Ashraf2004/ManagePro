@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.favicon{
+  margin-left: 100px;
+  
+}
+.navimage{
+  border-radius: 10%;
+  animation: shine 5s infinite; /* Add the shining animation */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@keyframes shine {
+0% {
+  box-shadow: 0 0 0 0 #0cc0df;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+50% {
+  box-shadow: 0 0 20px 10px white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+100% {
+  box-shadow: 0 0 0 0 #0cc0df;
+}
+}
+.button{
+  margin-left: 770px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+}
+.signature {
+  position: absolute;
+  top: 30px;
+  right: 400px;
+  font-size: 24px;
+  font-family: cursive;
+  color: #101110;
+  white-space: nowrap;
+  overflow: hidden;
+  /*border-right: 2px solid #000;*/
+  width: 0;
+  animation: sign 15s steps(30, end) infinite;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes sign {
   from {
-    transform: rotate(0deg);
+    width: 0;
   }
   to {
-    transform: rotate(360deg);
+    width: 32%;
   }
 }
+
