@@ -13,6 +13,10 @@ function NavigationBar() {
     setShowUsername(!showUsername);
   }
 
+  function sendEmail() {
+    window.location.href = "mailto:managepro@gmail.com";
+  }
+
   return (
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">
@@ -27,7 +31,7 @@ function NavigationBar() {
           <Nav.Link className='adj' href="#about">About</Nav.Link>
           <Nav.Link className='adj' href="https://www.markuptag.com/demo/feedback-form-with-star-rating-html.php">Feedback</Nav.Link>
           <NavDropdown className='adj' title="Contact" id="basic-nav-dropdown">
-            <NavDropdown.Item >managepro@gmail.com</NavDropdown.Item>
+            <NavDropdown.Item onClick={sendEmail}>managepro@gmail.com</NavDropdown.Item>
           </NavDropdown>
           <NavDropdown className='adj' title="Plans" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Basic</NavDropdown.Item>
