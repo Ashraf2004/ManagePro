@@ -25,7 +25,7 @@ function NavigationBar() {
         <Nav className="ml-auto"> {/* Align the content to the right */}
           <Nav.Link className='adj' href="#home">Home</Nav.Link>
           <Nav.Link className='adj' href="#about">About</Nav.Link>
-          <Nav.Link className='adj' href="https://ashraf2004.github.io/BootStarp-and-JavaScript/javaScript/task_5.html">Feedback under</Nav.Link>
+          <Nav.Link className='adj' href="">Feedback</Nav.Link>
           <Nav.Link className='adj' href="#contact">Contact</Nav.Link> 
           <NavDropdown className='adj' title="Plans" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Basic</NavDropdown.Item>
