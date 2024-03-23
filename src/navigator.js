@@ -26,7 +26,9 @@ function NavigationBar() {
           <Nav.Link className='adj' href="#home">Home</Nav.Link>
           <Nav.Link className='adj' href="#about">About</Nav.Link>
           <Nav.Link className='adj' href="">Feedback</Nav.Link>
-          <Nav.Link className='adj' href="#contact">Contact</Nav.Link> 
+          <NavDropdown className='adj' title="Contact" id="basic-nav-dropdown">
+            <NavDropdown.Item >managepro@gmail.com</NavDropdown.Item>
+          </NavDropdown>
           <NavDropdown className='adj' title="Plans" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Basic</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Premium</NavDropdown.Item>
