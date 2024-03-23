@@ -8,10 +8,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <h3>Company Info</h3>
             <p>𝓜𝓪𝓷𝓪𝓰𝓮𝓟𝓻𝓸</p>
-            <p>1-86/1, Singarayakonda</p>
-            <p>Phone: 7997211555</p>
             <p>Email: managePro@gmail.com</p>
           </div>
           <div className="col-lg-4 col-md-6">
