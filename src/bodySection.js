@@ -82,7 +82,7 @@ function ManageProSection() {
                 </span>
               </div>
               <br></br>
-              <p>Trusted by millions, ManagePro is the visual collaboration tool that creates a shared perspective on any project.</p>
+              <p>Trusted by millions, ManagePro is the visual collaboration tool</p>
             </div>
             <div className="col-md-6">
               <picture className="pict">
