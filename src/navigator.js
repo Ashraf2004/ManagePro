@@ -29,7 +29,7 @@ function NavigationBar() {
         <Nav className="ml-auto"> {/* Align the content to the right */}
           <Nav.Link className='adj' href="#home">Home</Nav.Link>
           <Nav.Link className='adj' href="#about">About</Nav.Link>
-          <Nav.Link className='adj' href="https://www.markuptag.com/demo/feedback-form-with-star-rating-html.php">Feedback</Nav.Link>
+         /* <Nav.Link className='adj' href="https://www.markuptag.com/demo/feedback-form-with-star-rating-html.php">Feedback</Nav.Link> */
           <NavDropdown className='adj' title="Contact" id="basic-nav-dropdown">
             <NavDropdown.Item onClick={sendEmail}>managepro@gmail.com</NavDropdown.Item>
           </NavDropdown>
